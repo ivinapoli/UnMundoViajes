@@ -1,0 +1,210 @@
+/* --CSS DE MI PROYECTO-- */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+h2{
+    color: rgb(54, 54, 54);
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-size: 3.5rem;
+    padding: 2.5rem 1.5rem;
+}
+
+/* ----------- BACKGROUNDS ------------- */
+
+.fondoBlancoDiseño{
+    background-image: url("../multimedia/spiration-light.png");
+}
+
+.fondoFooterGris{
+    background-color: rgb(117, 117, 117);
+}
+
+.header{
+    background-color: #ff6d6d;
+}
+
+.header__logo{
+    width: 15rem;
+    margin: 1rem 5rem 1rem 5rem;
+}
+
+/* ----------- FOOTER ------------- */
+
+.footerHijo__correo{
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: rgb(255, 255, 255);
+}
+
+.footerHijo__correoInput{
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: black;
+}
+
+.footerHijo__parrafo{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.footerHijo__parrafoMap{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.redesSociales{
+    width: 4rem;
+    margin: 0rem 0.5rem;
+}
+
+.footerPadre{
+    height: 15rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footerHijoPrimero{
+    order: -1;
+}
+
+/* ----------- SERVICIOS HTML ------------- */
+
+.descripcionesCard{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.imagenesCard{
+    /* padding: 0.6rem; */
+    height: 25rem;
+    display:block;
+    margin:auto;
+    border-radius: 1.6rem;
+}
+
+.flexboxServicios{
+    height: 85rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.flexboxServiciosHijo{
+    width: 50rem;
+    height: 32rem;
+    margin: 2rem;
+}
+
+.movimiento{
+    border: solid 0.4rem #ff6d6d;
+    border-radius: 2rem;
+}
+
+.movimiento:hover{
+    transform: translate(1rem, 1rem);
+}
+
+.breadcrumbTexto{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+/* ----------- MENU DE NAVEGACION HEADER ------------- */
+
+.menuPrincipal{
+    text-align: center;
+    list-style: none;
+}
+
+.menuPrincipal li{
+    display: inline-block;
+    position: relative;
+    font-size: 3rem;
+    padding: 2rem 1.5rem;
+}
+
+.navText{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* ----------- DESTINOS HTML ------------- */
+
+.destinosPaises{
+    width: 120rem;
+    height: 80rem;
+    border: solid 0.4rem #ff6d6d;
+    border-radius: 4rem;
+    display:block;
+    margin:auto;
+}
+
+.paisesCarousel{
+    font-size: 3.3rem;
+}
+
+.carouselButtons__uno{
+    width: 9rem;
+    height: 9rem;
+    margin-right: 22rem;
+}
+
+.carouselButtons__dos{
+    width: 9rem;
+    height: 9rem;
+    margin-left: 22rem;
+}
+
+.margen{
+    margin: 5rem 0rem 15rem 0rem;
+}
+
+.tituloH1{
+    padding-top: 7rem;
+}
+
+/* ----------- CONTACTO HTML ------------- */
+
+.footerContactoPadre{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.footerContactoHijo{
+    width: 80rem;
+    height: 70rem;
+    margin-top: 6rem;
+}
+
+.formularioCajas{
+    font-size: 2.1rem;
+}
+

@@ -1,6 +1,6 @@
 ## Un Mundo Viajes - Sitio web (HTML/CSS).
 
-- Ingrese al sitio: https://ivinapoli.github.io/UnMundoViajes/
+- Ingrese al sitio: https://ivinapoli.github.io/ProyectoDesarrolloWeb/
 
 ### Información General del Proyecto:
 - Proyecto final del curso de Desarrollo Web (Coderhouse). 
